@@ -30,7 +30,7 @@ public class TextToSpeech : Singleton<TextToSpeech>
         byte[] buffer = System.Text.Encoding.UTF8.GetBytes(string.Format(SSML, text));
         var headers = new Dictionary<string, string>() {
             { "Authorization", "Bearer " + SpeechToText.Instance.GetToken() },
-            { "Content-Type", @"audio/wav; samplerate=16000" },
+            { "Content-Type", @"application/ssml+xml" },
             { "X-Microsoft-OutputFormat", @"riff-16khz-16bit-mono-pcm"},
             { "X-Search-AppId", Guid.NewGuid().ToString().Replace("-", "")},
             { "X-Search-ClientID", Guid.NewGuid().ToString().Replace("-", "")},
