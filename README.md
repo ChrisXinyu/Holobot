@@ -48,4 +48,4 @@
 
 ### 参考资料 ###
 [Bing Speech API文档](https://docs.microsoft.com/zh-cn/azure/cognitive-services/speech/getstarted/getstartedrest)  
-[Bot Framework API文档](https://docs.botframework.com/en-us/restapi/directline3/#navtitle)
+[Bot Framework API文档](https://docs.microsoft.com/en-us/bot-framework/rest-api/bot-framework-rest-direct-line-3-0-concepts)
