@@ -20,7 +20,7 @@ public class SpeechToText : Singleton<SpeechToText>
     private AudioClip audioClip;
 
     private static string fetchUri = "https://api.cognitive.microsoft.com/sts/v1.0";
-    private static string subscriptionKey = "745d51f70a804bae90da163207801d3e"; //Bing Speech 订阅key
+    private static string subscriptionKey = "591efde4321542ffaa7f52bee649cf4e"; //Bing Speech 订阅key，建议改为自行申请的key
     private string token = null;
     private const int refreshTokenDuration = 9 * 60;  //Access token每10分钟后过期，9分钟后重新获取token
     private float startTime;
